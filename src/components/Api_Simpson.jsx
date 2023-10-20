@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
+import "../assets/home.css";
 
 function ApiComponent() {
   const [data, setData] = useState([]);
@@ -35,16 +36,18 @@ function ApiComponent() {
 
   return (
     <div>
-      <h1>Personajes de los Simpson</h1>
-      <ul>
+      <h1>
+        Personajes de los Simpsons <hr />
+      </h1>
+      <div className="row justify-content-md-center">
         {data.map((item, index) => (
-          <li key={index}>
+          <div key={index} className="col-md-4 img_simpsons">
             Frase:{item.quote}
-            <img src={item.image} />
-            <p>Nombre: {item.character}</p>
-          </li>
+            <img src={item.image} className="rounded mx-auto d-block" />
+            <p>{item.character}</p>
+          </div>
         ))}
-      </ul>
+      </div>
     </div>
   );
 }

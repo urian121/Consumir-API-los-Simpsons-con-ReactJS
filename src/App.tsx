@@ -5,7 +5,6 @@ function App() {
 
   return (
     <>
-      <p>hola</p>
         <ApiComponent />
     </>
   )
