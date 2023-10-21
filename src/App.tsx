@@ -1,5 +1,5 @@
+import ApiComponent from './components/ApiSimpsons';
 import './App.css'
-import ApiComponent from './components/Api_Simpson'
 
 function App() {
 

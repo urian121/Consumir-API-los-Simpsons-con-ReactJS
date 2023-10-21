@@ -1,0 +1,36 @@
+body {
+  background-color: #fff !important;
+  font-family: "Playpen Sans", cursive;
+}
+.container {
+  background-color: #fbf7e5cc !important;
+}
+.img_simpsons {
+  width: 100%;
+  width: 150px;
+  margin-top: 20px;
+}
+h1 {
+  color: #ffd521;
+  font-weight: 900;
+}
+p {
+  font-size: 18px;
+  color: #464646;
+  border-top: 1px solid #ddddd9;
+}
+.card-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+.card-4 {
+  margin-bottom: 10px;
+  background-color: #fff;
+  position: relative;
+  border-right: 1px solid #eee;
+}
+.logo_Simpsons {
+  width: 200px;
+}
