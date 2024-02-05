@@ -1,6 +1,18 @@
 body {
   background-color: #fff !important;
   font-family: "Playpen Sans", cursive;
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 .container {
   background-color: #fbf7e5cc !important;
@@ -11,7 +23,8 @@ body {
   margin-top: 20px;
 }
 h1 {
-  color: #ffd521;
+  color: #ffd50b;
+  font-size: 50px;
   font-weight: 900;
 }
 p {
