@@ -34,7 +34,7 @@ const ApiSimpsons = () => {
     <>
       <div className="row justify-content-md-center">
         <h1>
-          Consumir API Personajes de los Simpsons en ReactJS
+          Consumir API Personajes de los Simpsons en ReactJS 🚀
           <br />
           <img src={miImagen} className="img-fluid" alt="Los Simpsons" />
           <hr />
